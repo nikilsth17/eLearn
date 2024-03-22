@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css?family=Allura|Josefin+Sans');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background: #81c644;
+  font-family: 'Josefin Sans', sans-serif;
+}
+a {
+  text-decoration: none;
+  color: #5cb874;
+    transition: all 0.5s ease-in-out;
+
+}
+
+a:hover {
+  color: #80c792;
+  text-decoration: none;
+    transition: all 0.5s ease-in-out;
+
+}
+
+
+
+.wrapper{
+  margin-top: 50px;
+}
+
+.wrapper h1{
+  font-family: 'Allura', cursive;
+  font-size: 52px;
+  margin-bottom: 60px;
+  text-align: center;
+}
+
+.team{
+  display: flex;
+  justify-content: center;
+  width: auto;
+  text-align: center;
+  flex-wrap: wrap;
+}
+img{
+  border-radius: 50%;
+}
+
+.team .team_member{
+  background: #fff;
+  margin: 5px;
+  margin-bottom: 50px;
+  width: 300px;
+  padding: 20px;
+  line-height: 20px;
+  color: #8e8b8b;  
+  position: relative;
+}
+
+.team .team_member h4{
+  color: rgb(0 74 77);
+  font-size: 26px;
+  margin-top: 50px;
+}
+
+.team .team_member p.role{
+  color: black;
+  margin: 12px 0;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
+.team .team_member .team_img{
+  position: absolute;
+  top: -50px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background: #fff;
+}
+
+.team .team_member .team_img img{
+  width: 100px;
+  height: 100px;
+  padding: 5px;
+}
+.team .team_member .team_img .social {
+  margin-top: 15px;
+}
+.team .team_member .team_img .social a {
+  color: #919191;
+  transition: 0.3s;
+}
+.team .team_member .team_img .social a:hover {
+  color: #5cb874;
+}
+.team .team_member .team_img .social i {
+  font-size: 18px;
+  margin: 0 2px;
+}
+
+
+.center {
+  margin: auto;
+  text-align: center;
+  width: 50%;
+
+  padding: 10px;
+}
+.btn-get-started {
+  align-items: center;
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 13px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 5px 36px;
+  border-radius: 50px;
+  transition: 0.5s;
+  margin-bottom: 30px;
+  border: 2px solid #71c55d;
+  background: #fff;
+  color: black;
+  text-decoration: none;
+}
+.btn-get-started:hover {
+  background: rgb(0 74 77);
+  color: #fff;
+  border: 2px solid #fff;
+}
